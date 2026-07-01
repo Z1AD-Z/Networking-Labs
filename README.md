@@ -1,2 +1,2 @@
 # Networking-Labs
-A comprehensive networking lab portfolio featuring hands-on exercises in routing, switching, network security, automation, troubleshooting, and infrastructure design.
+This repository serves as my networking portfolio, showcasing practical labs, configurations, documentation, troubleshooting exercises, and projects completed throughout my networking learning journey.
