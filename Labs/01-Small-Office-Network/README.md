@@ -150,7 +150,7 @@ All devices successfully exchanged ICMP echo requests and replies.
 ## Files
 
 | File                     | Description                                |
-|------|-------------------|--------------------------------------------|
+|--------------------------|--------------------------------------------|
 | Small-Office-Network.pkt | Cisco Packet Tracer project                |
 | topology.png             | Network topology diagram                   |
 | configs/                 | Router and switch configurations           |
