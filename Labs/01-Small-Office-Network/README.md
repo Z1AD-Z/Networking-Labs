@@ -42,7 +42,7 @@ The network consists of the following devices:
 
 The following diagram illustrates the physical topology of the network.
 
-![Small Office Network Topology](topology.png)
+![Small Office Network Topology](screenshots/topology.png)
 
 ---
 
