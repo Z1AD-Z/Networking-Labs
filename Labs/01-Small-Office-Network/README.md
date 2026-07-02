@@ -164,11 +164,9 @@ configs/S1.txt
 
 Connectivity was verified using ICMP Echo Requests after completing the configuration.
 
-### PC1 to Router
+### PC1 to Router & PC1 to End Devices
 
 ![PC1 to Router](screenshots/ping-pc1-to-router.png)
-
-### PC1 to End Devices
 
 ![PC1 to End Devices](screenshots/ping-pc1-to-end-devices.png)
 
