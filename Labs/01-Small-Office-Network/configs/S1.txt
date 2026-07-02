@@ -1,0 +1,155 @@
+Switch>en
+Switch#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#hostname S1
+S1(config)#interface vlan 1
+S1(config-if)#descri
+S1(config-if)#description Management I
+S1(config-if)#description Management In
+S1(config-if)#description Management Interface
+S1(config-if)#ip address 192.168.10.2 255.255.255.0
+S1(config-if)#no shutdown
+
+S1(config-if)#
+%LINK-5-CHANGED: Interface Vlan1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+exit
+S1(config)#ip default-gateway 192.168.10.1
+S1(config)#end
+S1#
+%SYS-5-CONFIG_I: Configured from console by console
+copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+S1#show in
+S1#show interfaces 
+S1#show interfaces b
+S1#show interfaces br
+S1#show interface b
+S1#show interface bri
+S1#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+FastEthernet0/1        unassigned      YES manual up                    up 
+FastEthernet0/2        unassigned      YES manual up                    up 
+FastEthernet0/3        unassigned      YES manual up                    up 
+FastEthernet0/4        unassigned      YES manual up                    up 
+FastEthernet0/5        unassigned      YES manual up                    up 
+FastEthernet0/6        unassigned      YES manual down                  down 
+FastEthernet0/7        unassigned      YES manual down                  down 
+FastEthernet0/8        unassigned      YES manual down                  down 
+FastEthernet0/9        unassigned      YES manual down                  down 
+FastEthernet0/10       unassigned      YES manual down                  down 
+FastEthernet0/11       unassigned      YES manual down                  down 
+FastEthernet0/12       unassigned      YES manual down                  down 
+FastEthernet0/13       unassigned      YES manual down                  down 
+FastEthernet0/14       unassigned      YES manual down                  down 
+FastEthernet0/15       unassigned      YES manual down                  down 
+FastEthernet0/16       unassigned      YES manual down                  down 
+FastEthernet0/17       unassigned      YES manual down                  down 
+FastEthernet0/18       unassigned      YES manual down                  down 
+FastEthernet0/19       unassigned      YES manual down                  down 
+FastEthernet0/20       unassigned      YES manual down                  down 
+FastEthernet0/21       unassigned      YES manual down                  down 
+FastEthernet0/22       unassigned      YES manual down                  down 
+FastEthernet0/23       unassigned      YES manual down                  down 
+FastEthernet0/24       unassigned      YES manual down                  down 
+GigabitEthernet0/1     unassigned      YES manual down                  down 
+GigabitEthernet0/2     unassigned      YES manual down                  down 
+Vlan1                  192.168.10.2    YES manual up                    up
+S1#show running-config
+Building configuration...
+
+Current configuration : 1158 bytes
+!
+version 15.0
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname S1
+!
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+interface FastEthernet0/13
+!
+interface FastEthernet0/14
+!
+interface FastEthernet0/15
+!
+interface FastEthernet0/16
+!
+interface FastEthernet0/17
+!
+interface FastEthernet0/18
+!
+interface FastEthernet0/19
+!
+interface FastEthernet0/20
+!
+interface FastEthernet0/21
+!
+interface FastEthernet0/22
+!
+interface FastEthernet0/23
+!
+interface FastEthernet0/24
+!
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+!
+interface Vlan1
+ description Management Interface
+ ip address 192.168.10.2 255.255.255.0
+!
+ip default-gateway 192.168.10.1
+!
+!
+!
+!
+line con 0
+!
+line vty 0 4
+ login
+line vty 5 15
+ login
+!
+!
+!
+!
+end
+
+
+S1#
