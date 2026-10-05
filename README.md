@@ -184,9 +184,9 @@ LAN B
 **Concepts:** VLANs, access ports, trunking, department segmentation, inter-VLAN communication concepts.
 
 ```
-VLAN 10 → Management
-VLAN 20 → Finance
-VLAN 30 → IT
+VLAN 10 → ADMIN
+VLAN 20 → SALES
+VLAN 30 → SERVICES
 ```
 
 **Security relevance:** Broadcast separation, segmentation, reduced lateral communication, security policy enforcement.
