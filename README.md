@@ -688,13 +688,13 @@ These labs are educational and lab-based — they are not presented as productio
 
 | Lab | Status | Level |
 |---|---|---|
-| 01 — Small Office Network | 🟢 Planned | Beginner |
-| 02 — Two LANs — Static Routing | 🟢 Planned | Beginner |
-| 03 — Small Business VLANs | 🟡 Planned | Beginner |
-| 04 — Branch Office Connectivity | 🔵 Planned | Beginner / Intermediate |
-| 05 — DHCP Deployment | 🔵 Planned | Beginner / Intermediate |
-| 06 — OSPF Single-Area | 🔵 Planned | Intermediate |
-| 07 — Network Access Control | 🔵 Planned | Intermediate |
+| 01 — Small Office Network | 🟢 Completed | Beginner |
+| 02 — Two LANs — Static Routing | 🟢 Completed | Beginner |
+| 03 — Small Business VLANs | 🟢 Completed | Beginner |
+| 04 — Branch Office Connectivity | 🟢 Completed | Beginner / Intermediate |
+| 05 — DHCP Deployment | 🟢 Completed| Beginner / Intermediate |
+| 06 — OSPF Single-Area | 🟢 Completed | Intermediate |
+| 07 — Network Access Control | 🟡 In Progress | Intermediate |
 | 08 — Internet Access with NAT | 🔵 Planned | Intermediate |
 | 09 — Enterprise Campus Network | 🔵 Planned | Intermediate |
 | 10 — Network Troubleshooting | 🔵 Planned | Intermediate |
